@@ -1,0 +1,302 @@
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Propolis - Rough Sleepers in England</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-96850678-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { 
+            margin:0; 
+            padding:0; 
+            font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif ; 
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        a {
+            color: red;
+        }
+        
+        #map { 
+            position:absolute; 
+            top:0; 
+            bottom:0; 
+            width:100%; 
+        }
+    
+        .mapboxgl-popup {
+            max-width: 400px;
+            font: 12px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            
+        }
+
+        .mapboxgl-popup-content {
+            background: rgba(255,255,255,0.7);
+        }
+
+        #features {
+            position: absolute;
+            margin: 5px;
+            padding: 5px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 340px;
+            overflow: auto;
+            background: rgba(255, 255, 255, 0.7);
+        }
+
+        #menu {
+        background: #fff;
+        position: absolute;
+        z-index: 1;
+        top: 10px;
+        right: 10px;
+        border-radius: 3px;
+        width: 120px;
+        border: 1px solid rgba(0,0,0,0.4);
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #menu a {
+        font-size: 13px;
+        color: #404040;
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding: 10px;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(0,0,0,0.25);
+        text-align: center;
+    }
+
+    #menu a:last-child {
+        border: none;
+    }
+
+    #menu a:hover {
+        background-color: #f8f8f8;
+        color: #404040;
+    }
+
+    #menu a.active {
+        background-color: #3887be;
+        color: #ffffff;
+    }
+
+    #menu a.active:hover {
+        background: #3074a4;
+    }
+
+
+
+    </style>
+    
+</head>
+<body>
+
+<nav id="menu"></nav>
+<div id='map'></div>
+
+
+<div id="features">
+    <button class="close" onclick="document.getElementById('features').style.display='none'" >Close</button>
+    <h2>Rough Sleepers Counts 2016</h2>
+    <p>2D/3D Map showing Lower Tier Authority level counts of rough sleepers 2016</p>
+    <p>Left-click-drag pans the map.</p>
+    <p>Right-click-drag spins the map (and changes pitch on non-touch devices)</p>
+    <p>Pinch (or two-finger drag) to zoom.</p>
+    <p>Click an area to show breakdown of the numbers of . (BEWARE - there's a degree of distortion on the 3D map because of the view angle, so clicking from a top-down view works, but clicking the top of a tower from a low angle will likely highlight an unexpected area. Try and click on the base of a tower for accurate resuts. The selected area is highlighted on the base map underneath to help with this). </p>
+    <p>Heights and colours have been calculated using the reported count of rough sleepers in 2016.</p>
+    <p>Please feel free to make it better. I would ESPECIALLY like someone to fix the perspective issues when interacting with polygons.</p>
+    <p><a href="http://twitter.com/northernjamie" target="_blank">@northernjamie</a></p>
+    <button class="close" onclick="document.getElementById('features').style.display='none'" >Close</button>
+
+</div>
+
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoibm9ydGhlcm5qYW1pZSIsImEiOiJjajEzZms2cDgwMDBqMndzOHJydmo3dHRxIn0.UCfu8lQvHP62WkKvPKVS5g';
+var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/mapbox/dark-v9', //stylesheet location
+    center: [-2.248, 53.48], // starting position
+    zoom: 9,
+    pitch: 0,
+    bearing: 0 
+});
+
+
+
+map.on('load', function() {
+
+map.addLayer({
+        'id': '2D',
+        'type': 'fill',
+        'source': {
+            'type': 'geojson',
+            'data': 'lowtierroughsleepers2.geojson'
+        },
+        'layout': {
+            'visibility': 'none'
+        },
+        'paint': {
+            'fill-color': {
+                'property': 'rough2016Time1000',
+                 'type' : 'interval',
+                 'stops': [
+                    [0, '#8c510a'],
+                    [5000, '#bf812d'],
+                    [10000,'#dfc27d'],
+                    [15000,'#f6e8c3'],
+                    [20000,'#c7eae5'],
+                    [25000,'#80cdc1'],
+                    [30000,'#35978f'],
+                    [270000,'#01665e']
+                    ]
+                },
+            'fill-opacity': 0.7
+        }
+
+    });
+
+map.addLayer({
+        'id': 'ward-lines',
+        'type': 'line',
+        'source': {
+            'type': 'geojson',
+            'data': 'lowtierroughsleepers2.geojson'
+        },
+        'layout': {
+            'visibility': 'visible'
+        },
+        'paint': {
+            'line-color': '#bbbbbb'
+        }
+
+})
+
+map.addLayer({
+        "id": "ward-fills-hover",
+        "type": "line",
+        'source': {
+            'type': 'geojson',
+            'data': 'lowtierroughsleepers2.geojson'
+        },
+        'layout': {
+            'visibility': 'visible'
+        },
+        "paint": {
+            "line-color": "#ffffff",
+            "line-opacity": 1,
+            "line-width": 4
+        },
+        "filter": ["==", "CODE", ""]
+    });
+
+    map.addLayer({
+        'id': '3D',
+        'type': 'fill-extrusion',
+        'source': {
+            'type': 'geojson',
+            'data': 'lowtierroughsleepers2.geojson'
+        },
+        'layout': {
+            'visibility': 'visible'
+        },
+        'paint': {
+            // See the Mapbox Style Spec for details on property functions
+            // https://www.mapbox.com/mapbox-gl-style-spec/#types-function
+            'fill-extrusion-color': {
+                 'property': 'rough2016Time1000',
+                 'type' : 'interval',
+                 'stops': [
+                    [0, '#8c510a'],
+                    [5000, '#bf812d'],
+                    [10000,'#dfc27d'],
+                    [15000,'#f6e8c3'],
+                    [20000,'#c7eae5'],
+                    [25000,'#80cdc1'],
+                    [30000,'#35978f'],
+                    [270000,'#01665e']
+                    ]
+            },
+            'fill-extrusion-height': {
+                
+                'property': 'rough2016Time1000',
+                'type': 'identity'
+            },
+            'fill-extrusion-base': {
+                'property': '0',
+                'type': 'identity'
+            },
+            'fill-extrusion-opacity': 0.9
+            
+
+        }
+
+
+    });
+
+    var toggleableLayerIds = [ '2D', '3D'  ];
+
+for (var i = 0; i < toggleableLayerIds.length; i++) {
+    var id = toggleableLayerIds[i];
+
+    var link = document.createElement('a');
+    link.href = '#';
+    link.className = 'active';
+    link.textContent = id;
+
+    link.onclick = function (e) {
+        var clickedLayer = this.textContent;
+        e.preventDefault();
+        e.stopPropagation();
+
+        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+
+        if (visibility === 'visible') {
+            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+            this.className = '';
+        } else {
+            this.className = 'active';
+            map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+        }
+    };
+
+    var layers = document.getElementById('menu');
+    layers.appendChild(link);
+
+}
+    
+
+    
+
+    map.on('click', function(e) {
+        var features = map.queryRenderedFeatures(e.point, { layers: ['3D','2D'] })
+        new mapboxgl.Popup()
+           .setLngLat(e.lngLat)
+            .setHTML("<h2>" + features[0].properties.NAME + "</h2><p>Number of rough sleepers (2016): <a href='http://opendatacommunities.org/data/homelessness/rough-sleeping/count/2016/" + features[0].properties.CODE + "/count_rough_sleepers' target='_blank'>" + features[0].properties.rough2016_1 + "</a>")
+            .addTo(map);
+        map.setFilter("ward-fills-hover", ["==", "CODE",features[0].properties.CODE]);
+        console.log(features[0].properties.CODE);
+    });
+    
+});
+
+</script>
+
+</body>
+</html>
