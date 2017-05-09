@@ -1,0 +1,851 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rough",
+				"rough2016Time1000"
+			],
+			[
+				"ward",
+				"ward-fills"
+			],
+			[
+				"ward-fill",
+				"ward-fills-hover"
+			],
+			[
+				"wards",
+				"wards_gm_with_mayor_elec_2017_2simp2perc"
+			],
+			[
+				"p",
+				"properties"
+			],
+			[
+				"fill",
+				"fillColour"
+			],
+			[
+				"c",
+				"circleMarker"
+			],
+			[
+				"xCa",
+				"xCatLabel"
+			],
+			[
+				"are",
+				"areaCode"
+			],
+			[
+				"legend",
+				"legendEntries"
+			],
+			[
+				"region",
+				"regioncode"
+			],
+			[
+				"large",
+				"x-large"
+			],
+			[
+				"color",
+				"colorCat"
+			],
+			[
+				"clus",
+				"clusterdropdown"
+			],
+			[
+				"butt",
+				"buttons"
+			],
+			[
+				"btn-grop",
+				"btn-group-vertical"
+			],
+			[
+				"show",
+				"showPopover"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"sel",
+				"selectAll"
+			],
+			[
+				"stop",
+				"stopPropagation"
+			],
+			[
+				"inscription",
+				"inscription_text"
+			],
+			[
+				"ins",
+				"inscription_placeholder"
+			],
+			[
+				"inscr",
+				"inscription_text"
+			],
+			[
+				"togglePastCommute",
+				"togglePastCommute"
+			],
+			[
+				"LD",
+				"LDForecastContainer"
+			],
+			[
+				"income",
+				"incomeChartsContainer"
+			],
+			[
+				"ea",
+				"earningsSexLineChart"
+			],
+			[
+				"elec",
+				"elecParty16"
+			],
+			[
+				"mouse",
+				"mouseover"
+			],
+			[
+				"JSNA",
+				"JSNATree"
+			],
+			[
+				"gray",
+				"SlateGray"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"tet",
+				"text-decoration"
+			],
+			[
+				"backgro",
+				"background-position"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"arr",
+				"arrScatterData"
+			],
+			[
+				"arrCh",
+				"arrChartXData"
+			],
+			[
+				"arrC",
+				"arrClaimaintCount"
+			],
+			[
+				"arrChart",
+				"arrChartXLabels"
+			],
+			[
+				"crimeReportsNum",
+				"crimeReportsNumLineCat2"
+			],
+			[
+				"wa",
+				"wardCode"
+			],
+			[
+				"coords",
+				"coords"
+			],
+			[
+				"crime",
+				"crimeReportsNumLineCat2"
+			],
+			[
+				"drawCh",
+				"drawCharts2"
+			],
+			[
+				"arrTota",
+				"arrTotalCrime"
+			],
+			[
+				"counterOther",
+				"counterOtherTheft"
+			],
+			[
+				"counterb",
+				"counterBikeCrime"
+			],
+			[
+				"counterv",
+				"counterVehicleCrime"
+			],
+			[
+				"counterV",
+				"counterVehicleCrime"
+			],
+			[
+				"counterB",
+				"counterBikeCrime"
+			],
+			[
+				"counter",
+				"counterASB"
+			],
+			[
+				"crim",
+				"crimeData"
+			],
+			[
+				"getApi",
+				"getApiData"
+			],
+			[
+				"test",
+				"testAPIResults"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "roughsleepers.html",
+			"settings":
+			{
+				"buffer_size": 8730,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lowtierroughsleepers2.geojson",
+			"settings":
+			{
+				"buffer_size": 601508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lowtierroughsleepers.geojson",
+			"settings":
+			{
+				"buffer_size": 540128,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Library/WebServer/Documents/Propolis_web/roughsleepers"
+	],
+	"file_history":
+	[
+		"/Library/WebServer/Documents/Propolis_web/GMMayor2017/wards_gm_with_mayor_elec_2017_6simp2perc.geojson",
+		"/Library/WebServer/Documents/Propolis_web/GMMayor2017/gmmayor3d.html",
+		"/Library/WebServer/Documents/Propolis_web/GMMayor2017/wards_gm_with_mayor_elec_2017_5simp2perc.geojson",
+		"/Library/WebServer/Documents/Propolis_web/Map/gmauthoritiessimp2perc4326.geojson",
+		"/Library/WebServer/Documents/Propolis_web/Map/hospitalsGM.geojson",
+		"/Library/WebServer/Documents/Propolis_web/Map/hospitals.geojson",
+		"/Library/WebServer/Documents/Propolis_web/Map/leafletmaptemplate.htm",
+		"/Users/Jamie/Downloads/manchester_england.imposm-geojson/manchester_england_buildings.geojson",
+		"/Library/WebServer/Documents/Propolis_web/mapboxTest/mapbox.html",
+		"/Library/WebServer/Documents/Propolis_web/mapboxTest/MancBuildingsOSM.geojson",
+		"/Library/WebServer/Documents/Propolis_web/mapboxTest/Town_Halls_North.geojson",
+		"/Library/WebServer/Documents/Propolis_web/mapboxTest/epc-north-town-halls.html",
+		"/Users/Jamie/Projects/Propolis_Stuff/LIDAR/ManchesterCityCentre/MancBuildings2.geojson",
+		"/Users/Jamie/Projects/Propolis_Stuff/LIDAR/ManchesterCityCentre/MancBuildings.geojson",
+		"/Users/Jamie/Projects/Propolis_Stuff/FSA/UKFSS Project/Maps/UKFSSUsersForMap_district_micro.csv",
+		"/Users/Jamie/Projects/Propolis_Stuff/FSA/UKFSS Project/Maps/UKFSSUsersForMap_county3standards.csv",
+		"/Library/WebServer/Documents/Propolis_web/ONS_Gender_Pay_Gap/paygap.html",
+		"/Users/Jamie/Applications/webdataconnector/earthquakeWDC.html",
+		"/Users/Jamie/Applications/webdataconnector/ons-web-data-connector-1/README.md",
+		"/Library/WebServer/Documents/Propolis_web/ONS_Gender_Pay_Gap/scatter.js",
+		"/Library/WebServer/Documents/Propolis_web/Swirrl_MyNHS_Correlotron/correlotron.html",
+		"/Users/Jamie/Governors/Meetings with Kylie/Governor meeting with Kylie - RaiseOnline 20170203",
+		"/Library/WebServer/Documents/Propolis_web/animated_line_test/animaniac.html",
+		"/Library/WebServer/Documents/Propolis_web/animated_line_test/data/school_ofsted_constituency_alt.json",
+		"/Library/WebServer/Documents/Propolis_web/animated_line_test/data/homelessnessdata.csv",
+		"/Library/WebServer/Documents/Propolis_web/animated_line_test/data/homelessnessdata_backup.csv",
+		"/Library/WebServer/Documents/Propolis_web/animated_line_test/data/school_ofsted_constituency.json",
+		"/Library/WebServer/Documents/Propolis_web/animated_line_test/data/school_ofsted_constituency_alt_bak.csv",
+		"/Library/WebServer/Documents/Propolis_web/Swirrl_MyNHS_Correlotron/scatter.js",
+		"/Library/WebServer/Documents/Propolis_web/Swirrl_MyNHS_Correlotron/scatter.css",
+		"/Users/Jamie/Projects/Propolis_Stuff/Swirrl/DCLG/Training Plan Jan 2017/Questions for Martin.txt",
+		"/Library/WebServer/Documents/Propolis_web/Swirrl_MyNHS_Correlotron/data/hospital_georef_data_correlotron_region.csv",
+		"/Library/WebServer/Documents/Propolis_web/scatterplot_test/scatter.css",
+		"/Library/WebServer/Documents/Propolis_web/scatterplot_test/data/ODC_IMD_HouseBuild_LA.csv",
+		"/Users/Jamie/Projects/Propolis_Stuff/Swirrl/DCLG/SPARQL Queries/IMD_LSOA_With_Geog_Hierarchy.txt",
+		"/Library/WebServer/Documents/Propolis_web/scatterplot_test/scatter.js",
+		"/Library/WebServer/Documents/Propolis_web/scatterplot_test/scatter_backup201701120823.js",
+		"/Library/WebServer/Documents/Propolis_web/Swirrl_MyNHS_Correlotron/pcd2.csv",
+		"/Library/WebServer/Documents/Propolis_web/scatterplot_test/correlotron.html",
+		"/Library/WebServer/Documents/Propolis_web/scatterplot_test/scatter_backup201601120823.js",
+		"/Library/WebServer/Documents/Propolis_web/scatterplot_test/scatterplot_test.html",
+		"/Library/WebServer/Documents/Propolis_web/scatterplot_test/data/ODC_IMD_HouseBuild_LSOA.csv",
+		"/Library/WebServer/Documents/Propolis_web/d3_schools_geog_cluster/d3_cluster_delimited_example_cars.html",
+		"/Library/WebServer/Documents/Propolis_web/d3_schools_geog_cluster/d3_cluster_schools_WIP_alternative_model.html",
+		"/Library/WebServer/Documents/Propolis_web/scatterplot_test/ScotDStorePaygapVsU19Mothers.csv",
+		"/Library/WebServer/Documents/Propolis_web/d3_schools_geog_cluster/data/ks2processed_358.csv",
+		"/Library/WebServer/Documents/Propolis_web/d3_schools_geog_cluster/d3_cluster_schools_WIP.html",
+		"/Library/WebServer/Documents/Propolis_web/d3_schools_geog_cluster/d3_schools_geog_cluster.htm",
+		"/Library/WebServer/Documents/Propolis_web/d3_schools_geog_cluster/data/edubasealldata20161218_stripped.csv",
+		"/Users/Jamie/Projects/Propolis_Stuff/Swirrl/Scottish Statistics 3rd Article Correlation Matrix in R/Correlation Matrix SG/AllStepsForBlogandGistCorrMatrix.Rhistory",
+		"/Users/Jamie/Projects/Propolis_Stuff/Swirrl/Scottish Statistics 3rd Article Correlation Matrix in R/Correlation Matrix SG/CorrMatrix2SPARQLQueries.Rhistory",
+		"/Users/Jamie/Projects/Propolis_Stuff/Swirrl/Scottish Statistics 3rd Article Correlation Matrix in R/Correlation Matrix SG/ScotDstoreSPARQLBigCorr_1.txt",
+		"/Users/Jamie/Projects/Propolis_Stuff/Swirrl/Scottish Statistics 3rd Article Correlation Matrix in R/Correlation Matrix SG/ScotDstoreSPARQLBigCorr_2.txt",
+		"/Library/WebServer/Documents/Propolis_web/scatterplot_test/cereal.csv",
+		"/Library/WebServer/Documents/lab_portal/lab_JSNA_Landing_Page_New.htm",
+		"/Users/Jamie/Projects/Propolis/DataViz/PrimarySchoolPerformance/2014-2015/Prim_Sch_Perf_14_15_R/england_census.csv",
+		"/Users/Jamie/Projects/Propolis/DataViz/PrimarySchoolPerformance/2014-2015/Prim_Sch_Perf_14_15_R/england_spine.csv",
+		"/Library/WebServer/Documents/Propolis/data/358_census.csv",
+		"/Library/WebServer/Documents/Propolis/data/358_spine.csv",
+		"/Library/WebServer/Documents/Propolis/data/fuel.csv",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/lab_jsna_2016_worklessness_about_this_section.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/lab_jsna_2016_physical_activity_about_this_section.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/lab_jsna_2016_housing_about_this_section.htm",
+		"/Users/Jamie/Projects/Propolis/Swirrl/Scottish Statistics 4th Article Shiny Map Deprivation/Interactive Scottish Deprivation/scotland_wards.json",
+		"/Users/Jamie/Projects/Propolis/Swirrl/General/SPARQL/Sample PMD scotgov SPARQL queries",
+		"/Users/Jamie/Projects/Propolis/Swirrl/Scottish Statistics 4th Article Shiny Map Deprivation/Interactive Scottish Deprivation/app.R",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/lab_JSNA_Landing_Page_New.htm",
+		"/Library/WebServer/Documents/lab_portal/custom/resources/jsnagraph.js",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/jsna_feedback_form.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/lab_jsna_2016_worklessness_what_can_we_do.htm",
+		"/Users/Jamie/Downloads/map (1).osm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/custom/resources/ward_profile_data.js",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/lab_area_profile_demographics.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/lab_blog_interactive_banner.htm",
+		"/Library/WebServer/Documents/lab_portal/lab_blog_pop_up_lab.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/custom/resources/lab_portfolio_feed.js",
+		"/Library/WebServer/Documents/lab_portal/custom/resources/lab_portfolio_feed.js",
+		"/Library/WebServer/Documents/lab_portal/_TEMPLATE_PAGES/_TEMPLATE-BLOG_PAGE.htm",
+		"/Users/Jamie/Documents/JamiePropolisTest/Important Infor/Important things about Propolis",
+		"/Library/WebServer/Documents/lab_portal/lab_jsna_force_directed_New_test.html",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/lab_jsna_force_newest.htm",
+		"/Library/WebServer/Documents/lab_portal/test_JSNA_Force_New.htm",
+		"/Library/WebServer/Documents/lab_portal/jsnagraph.json",
+		"/Library/WebServer/Documents/lab_portal/readme.json",
+		"/Library/WebServer/Documents/lab_portal/custom/resources/lab_portal_main.css",
+		"/Library/WebServer/Documents/lab_portal/jsnastructurenew.json",
+		"/Library/WebServer/Documents/lab_portal/custom/resources/LSOAMulti.js",
+		"/Library/WebServer/Documents/lab_portal/lab_blog_testing_scatterplots_PROVEN.htm",
+		"/Library/WebServer/Documents/lab_portal/custom/resources/blueplaques.js",
+		"/Library/WebServer/Documents/lab_portal/cop_blue_plaque_randomiser.htm",
+		"/Library/WebServer/Documents/lab_portal/custom/resources/open-plaques-uk-area-matched.js",
+		"/Library/WebServer/Documents/lab_portal/custom/resources/blue_plaque.js",
+		"/Library/WebServer/Documents/lab_portal/custom/resources/open-plaques-all-2016-05-22.js",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/local_election_2016_multimap_version.htm",
+		"/Library/WebServer/Documents/lab_portal/lab_blog_open_data_club.htm",
+		"/Library/WebServer/Documents/lab_portal/jsna_about_trafford_crime.htm",
+		"/Library/WebServer/Documents/lab_portal/_TEMPLATE_PAGES/_TEMPLATE-BASIC_PAGE.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/jsna_about_trafford_introduction.htm",
+		"/Library/WebServer/Documents/lab_portal/jsna_about_trafford_version.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/jsna_about_trafford_economy.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/jsna_about_trafford_version.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/jsna_about_trafford_health.htm",
+		"/Library/WebServer/Documents/lab_portal/lab_locality_dashboards.htm",
+		"/Library/WebServer/Documents/lab_portal/lab_blog_population-projections-gm-datastore.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/lab_locality_dashboards.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/jsna_about_trafford_employment.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/jsna_about_trafford_transport.htm",
+		"/Library/WebServer/Documents/lab_portal/jsna_about_trafford_health.htm",
+		"/Library/WebServer/Documents/lab_portal/jsna_about_trafford_culture.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/jsna_about_trafford_demographics.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/_TEMPLATE_PAGES/_TEMPLATE-BLOG_PAGE.htm",
+		"/Library/WebServer/Documents/lab_portal/LIVE_PAGES_logical_url_refs/jsna_about_trafford_housing.htm",
+		"/Library/WebServer/Documents/lab_portal/jsna_about_trafford_housing.htm",
+		"/Library/WebServer/Documents/lab_portal/lab_blog_swirrl_talk_data_driven_decisions.htm",
+		"/Library/WebServer/Documents/lab_portal/aboutTrafford.htm",
+		"/Library/WebServer/Documents/lab_portal/aboutTraffordJWEdits.htm",
+		"/Library/WebServer/Documents/Maps/projects_v3.0/custom/resources/Election2016_Data.js",
+		"/Library/WebServer/Documents/Maps/projects_v3.0/custom/resources/geoJSON_trafford_wards_full.js",
+		"/Library/WebServer/Documents/Maps/projects_v3.0/custom/resources/lab_map_scripts_V3.js",
+		"/Library/WebServer/Documents/lab_portal/lab_area_profile_demographics.htm",
+		"/Library/WebServer/Documents/lab_portal/lab_Safari_Trail.htm",
+		"/Library/WebServer/Documents/Maps/projects_v3.0/Election2016.htm",
+		"/Library/WebServer/Documents/Maps/projects_v3.0/custom/resources/geoJSON_trafford_lsoas_full.js",
+		"/Library/WebServer/Documents/lab_portal/elections_2016.htm",
+		"/Library/WebServer/Documents/lab_portal/lab_area_profile_health.htm",
+		"/Library/WebServer/Documents/lab_portal/lab_area_profile_crime.htm",
+		"/Library/WebServer/Documents/lab_portal/lab_area_profile_crime_multi_authority_api.htm",
+		"/Library/WebServer/Documents/Maps/projects_v3.0/custom/resources/ESA_Claimants.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"E05000821",
+			"E05000830",
+			"E05000780",
+			"\"meanmeanAssRat\": null",
+			"#dddddd",
+			"\"EPC\": null",
+			"fill-extrusion-height",
+			"Heightmax",
+			"regionna",
+			"#n/a",
+			"line",
+			"xmin",
+			"M24",
+			",Eastern,",
+			" Euro Region",
+			"tip",
+			"zoomb",
+			"color",
+			"odc",
+			" ",
+			"opacity",
+			"cereal.csv",
+			"dx",
+			"nodes",
+			".y",
+			".x",
+			"draw",
+			"make",
+			"drive",
+			"make",
+			"comb",
+			"graph",
+			".js",
+			"./custom",
+			"details",
+			"dashboard",
+			"dashbox",
+			"content",
+			"/custom",
+			"./custom",
+			"each triple ",
+			"./custom",
+			"/custom",
+			"./custom",
+			"79",
+			"./custom",
+			"smok",
+			"deprivation",
+			"empl",
+			"smoking",
+			".",
+			"./custom",
+			"\"size\":75",
+			"\"size\":50",
+			"\"size\":25",
+			"circle",
+			"color",
+			"\"tags\"",
+			"\"size\":10",
+			"\"size\":12",
+			"\"size\":14",
+			"\"type\":\"webpage\"",
+			"score",
+			"count",
+			"type",
+			"trian",
+			"graph.json",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"rgba",
+			"data",
+			"PuRd",
+			"elecStrength16",
+			"conShareVoted",
+			"winningParty",
+			"consShareVoted",
+			"voteSharePerc",
+			"greenShareVote",
+			"profileHeadline",
+			"legend",
+			"\",\n",
+			"hospAdmission04",
+			"ward",
+			"HospAdmission04",
+			"HospAdmission04Label",
+			"HospAdmission04Style",
+			"HospAdmission04Chroma",
+			"chroma",
+			"Health",
+			"No_ESA_Claimants",
+			"ESAClaimantCount",
+			"./custom",
+			"organizeData",
+			"getthed",
+			"control",
+			"svg",
+			"promise",
+			"JSNA",
+			"group",
+			"mcpherTreeData",
+			"]",
+			"emptyProperties_Ctax_201512_Count",
+			"emptyPropertyCount",
+			"],[",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"\"id'",
+			"\"LSOA11CD\"",
+			"#N/A",
+			"gm",
+			"geoJSON_gm_lsoas_genclipped.js",
+			"./custom",
+			"600px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"meanmeanAssRat\": 999",
+			"#f491ff",
+			"\"EPC\": \"#dddddd\"",
+			"HeightMax",
+			"fill-extrusion-height",
+			"0",
+			",East of England,",
+			"",
+			"_2",
+			"",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"\"size\":30",
+			"\"size\":20",
+			"\"size\":10",
+			"webpage",
+			"\"score\": 2,\"tags\"",
+			"\"size\":25",
+			"\"size\":50",
+			"\"size\":75",
+			"\"type\":\"circle\"",
+			"size",
+			"score",
+			"jsnagraph.json",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"elecConStrength16",
+			"conShareVoted",
+			"consShareVoted",
+			"greenShareVoted",
+			"elecTurnout16",
+			"hospAdmission04",
+			"hospAdmission04Label",
+			"hospAdmission04Style",
+			"hospAdmission04Chroma",
+			"No_admissions",
+			"HospAdmission04",
+			"/custom",
+			"JSNATreeData",
+			"No_ESA_Claimants",
+			"ESAClaimantCount",
+			":",
+			"./custom",
+			"/custom",
+			"./custom",
+			"/custom",
+			"\"id\"",
+			"\"id'",
+			"",
+			"geoJSON_warrington_lsoas_full.js",
+			"/custom",
+			"_1",
+			"/custom",
+			"./custom",
+			"/custom",
+			" ,",
+			": ",
+			":",
+			",",
+			"[1]"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "roughsleepers.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4249,
+								4249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1739.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lowtierroughsleepers2.geojson",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 601508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lowtierroughsleepers.geojson",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 540128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								386,
+								386
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "roughsleepers3dmap.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
